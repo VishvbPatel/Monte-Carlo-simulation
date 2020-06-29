@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[71]:
-
-
 import numpy as np
 import pandas as pd
 import pandas_datareader.data as web
@@ -130,17 +124,3 @@ if __name__ == "__main__":
 	optimum=optimize_portfolio(weights,returns)
 	print_optimal_portfolio(optimum, returns)
 	show_optimal_portfolio(optimum, returns, preturns, pvariances)
-	
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
